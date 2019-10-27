@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+sheenroo-algs = {path = "."}
+setuptools = "*"
+wheel = "*"
+twine = "*"
+
+[dev-packages]
+pytest = "*"
+ipython = "*"
+
+[requires]
+python_version = "3.7"
