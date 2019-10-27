@@ -22,8 +22,6 @@ def test_happy_case_1():
         assert open(output_paths[1], 'rb').read() == b"line2"
         assert open(output_paths[2], 'rb').read() == b"line3"
 
-        for
-
 
 def test_happy_case_2():
     with NamedTemporaryFile() as test_input:
